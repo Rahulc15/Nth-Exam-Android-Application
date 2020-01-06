@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="exam_category" android:title="EXAM TYPE" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="gate"
+            android:title="GATE"
+            android:summary="See all GATE exam tests">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cat"
+            android:title="CAT"
+            android:summary="See all CAT exam tests">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="iit"
+            android:title="IIT"
+            android:summary="See all IIT exam tests">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

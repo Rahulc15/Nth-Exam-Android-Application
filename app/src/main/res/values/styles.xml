@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="CustomToolbarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+       <item name="android:background">#2e86c1</item>
+
+    </style>
+
+    <style name="CustomPopupStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:background">#FFFFFF</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-14dp</item>
+
+    </style>
+
+</resources>

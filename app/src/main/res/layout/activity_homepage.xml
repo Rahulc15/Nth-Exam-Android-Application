@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomepageActivity"
+    android:background="#34495e">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"
+        />
+
+    <Button
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/go"
+        android:background=" #ba4a00 "
+        android:text="Apply Preferences"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/t_name"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/go"
+        android:fontFamily="@font/sanchez_italic"
+        android:paddingLeft="20dp"
+        android:text="TEST NAME"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#f1c40f"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="S.NO"
+        android:textColor="#000000"
+        android:id="@+id/sq_no"
+        android:textStyle="bold"
+        android:background="#dc7633"
+        android:textSize="20dp"
+        android:fontFamily="@font/sanchez_italic"
+        android:layout_toRightOf="@+id/t_name"
+        android:layout_below="@+id/go"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="#f1c40f"
+        android:text="CREATED ON"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/sanchez_italic"
+        android:layout_toRightOf="@+id/sq_no"
+        android:id="@+id/date_created"
+        android:layout_below="@+id/go"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="EXAM TYPE"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/exam_name"
+        android:background="#dc7633"
+        android:fontFamily="@font/sanchez_italic"
+        android:layout_toRightOf="@+id/date_created"
+        android:layout_below="@+id/go"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/r_view"
+        android:layout_below="@+id/t_name"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="5dp"
+    android:id="@+id/parent_layout"
+
+    >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/test_name"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/t_name"
+        android:background=" #85c1e9 "
+        />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:id="@+id/s_no"
+        android:layout_toRightOf="@+id/test_name"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:background=" #85c1e9 "
+        />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:id="@+id/created_on"
+        android:layout_toRightOf="@+id/s_no"
+        android:textSize="18dp"
+        android:textColor="#a04000"
+        android:paddingLeft="25dp"
+        android:background=" #85c1e9 "
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:id="@+id/exam_type"
+        android:layout_toRightOf="@+id/created_on"
+        android:textSize="18dp"
+        android:textColor="#0e6655"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:background=" #85c1e9 "
+        />
+
+
+
+</RelativeLayout>
