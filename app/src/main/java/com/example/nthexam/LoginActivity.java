@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         db = new DatabaseHelper( this );
 
         pref = getSharedPreferences( "com.example.nthexam",MODE_PRIVATE ) ;
-
+        //Registering the user
         register.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,6 +42,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         } );
 
+        //Logging in the valid user
         login_btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
