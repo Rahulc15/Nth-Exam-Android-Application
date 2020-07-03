@@ -3,7 +3,7 @@ Nth Exam android application
 Very basic android application showing the type of exams and number of tests to be organized for each exam
 
 
-ANDROID DEVELOPMENT : 
+
 ●	The application is made by using Android Studio and Google Pixel emulator is used for testing purposes.
 
 ●	First time opening the application will show 3 introduction skip slides, describing in very brief what the application can do.
@@ -23,8 +23,8 @@ Note: Login credentials will include only email and password.
 
 ●	Upon successful login the Dashboard will be displayed with an empty recycler view or list.
 ●	Now Goto the top right corner and click the “three dots button” in it. A popup will appear with 2 options:
-1: Settings
-2: Logout
+ - Settings
+ - Logout
   
 
 
