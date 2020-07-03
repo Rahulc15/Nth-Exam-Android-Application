@@ -1,9 +1,3 @@
-# Nth-Exam-Android-Application
-Nth Exam android application
-Very basic android application showing the type of exams and number of tests to be organized for each exam
-
-
-
 ●	The application is made by using Android Studio and Google Pixel emulator is used for testing purposes.
 
 ●	First time opening the application will show 3 introduction skip slides, describing in very brief what the application can do.
