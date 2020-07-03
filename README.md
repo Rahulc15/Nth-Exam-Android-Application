@@ -24,6 +24,7 @@ Very basic android application showing the type of exams and number of tests to 
 **Note: Login credentials will include only email and password.**
 
 ●	Upon successful login the Dashboard will be displayed with an empty recycler view or list.
+
 ●	Now Goto the top right corner and click the “three dots button” in it. A popup will appear with 2 options:
  - Settings
  - Logout
@@ -36,6 +37,7 @@ Note: Multiple exam types can be selected.
 ●	Now click on **APPLY PREFERENCES** . The dashboard will be updated.   
 
 **NOTE :** Here S.NO is not serial number, it is sequence number of the tests in a particular exam type and therefore it need not always continue in ascending order.
+
 ●	Now the user can choose to logout using the logout option in the dropdown menu. He/she will be asked to login again.
 
 
